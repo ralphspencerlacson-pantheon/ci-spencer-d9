@@ -11,9 +11,16 @@
     "require": {
         "drupal/pathauto": "^1.11",
         "drupal/devel": "^5.0",
-        "drupal/bootstrap_barrio": "^5.5"
+        "drupal/bootstrap_barrio": "^5.5",
+        "drupal/drupal-driver": "^2.2",
+        "dmore/behat-chrome-extension": "^1.4",
+        "genesis/behat-fail-aid": "^3.7"
     },
     "extra": {
         "_README": "To make a custom upstream, clone this repository and add any dependencies to be provided by this upstream to this composer.json file. Leave the root-level composer.json file for the exclusive use of each individual site; do not modify it after your custom upstream has been published. See https://pantheon.io/docs/create-custom-upstream for more information."
+    },
+    "require-dev": {
+        "drush-ops/behat-drush-endpoint": "^9",
+        "behat/behat": "^3.13"
     }
 }
