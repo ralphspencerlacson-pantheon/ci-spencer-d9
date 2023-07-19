@@ -22,14 +22,9 @@ class ComposerStaticInitcbdbb7d9257796858d7729144a02f634
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
         '2f69d3914119f042cca9e44442d5ce95' => __DIR__ . '/..' . '/drupal/core/includes/bootstrap.inc',
-        'a1105708a18b76903365ca1c4aa61b02' => __DIR__ . '/..' . '/symfony/translation/Resources/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
-        'W' => 
-        array (
-            'WebSocket\\' => 10,
-        ),
         'T' => 
         array (
             'Twig\\' => 5,
@@ -52,7 +47,6 @@ class ComposerStaticInitcbdbb7d9257796858d7729144a02f634
             'Symfony\\Component\\VarExporter\\' => 30,
             'Symfony\\Component\\VarDumper\\' => 28,
             'Symfony\\Component\\Validator\\' => 28,
-            'Symfony\\Component\\Translation\\' => 30,
             'Symfony\\Component\\String\\' => 25,
             'Symfony\\Component\\Serializer\\' => 29,
             'Symfony\\Component\\Routing\\' => 26,
@@ -60,13 +54,10 @@ class ComposerStaticInitcbdbb7d9257796858d7729144a02f634
             'Symfony\\Component\\Mime\\' => 23,
             'Symfony\\Component\\HttpKernel\\' => 29,
             'Symfony\\Component\\HttpFoundation\\' => 33,
-            'Symfony\\Component\\Filesystem\\' => 29,
             'Symfony\\Component\\EventDispatcher\\' => 34,
             'Symfony\\Component\\ErrorHandler\\' => 31,
             'Symfony\\Component\\DependencyInjection\\' => 38,
-            'Symfony\\Component\\CssSelector\\' => 30,
             'Symfony\\Component\\Console\\' => 26,
-            'Symfony\\Component\\Config\\' => 25,
             'Symfony\\Bridge\\PsrHttpMessage\\' => 30,
         ),
         'P' => 
@@ -90,10 +81,6 @@ class ComposerStaticInitcbdbb7d9257796858d7729144a02f634
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
         ),
-        'F' => 
-        array (
-            'FailAid\\' => 8,
-        ),
         'E' => 
         array (
             'Egulias\\EmailValidator\\' => 23,
@@ -107,22 +94,10 @@ class ComposerStaticInitcbdbb7d9257796858d7729144a02f634
             'Doctrine\\Common\\Lexer\\' => 22,
             'Doctrine\\Common\\Annotations\\' => 28,
             'Doctrine\\Common\\' => 16,
-            'DMore\\ChromeExtension\\' => 22,
-            'DMore\\ChromeDriver\\' => 19,
         ),
         'C' => 
         array (
             'Composer\\Semver\\' => 16,
-        ),
-        'B' => 
-        array (
-            'Behat\\Transliterator\\' => 21,
-            'Behat\\Testwork\\' => 15,
-            'Behat\\Step\\' => 11,
-            'Behat\\Mink\\Driver\\' => 18,
-            'Behat\\Mink\\' => 11,
-            'Behat\\Hook\\' => 11,
-            'Behat\\Behat\\' => 12,
         ),
         'A' => 
         array (
@@ -131,10 +106,6 @@ class ComposerStaticInitcbdbb7d9257796858d7729144a02f634
     );
 
     public static $prefixDirsPsr4 = array (
-        'WebSocket\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/textalk/websocket/lib',
-        ),
         'Twig\\' => 
         array (
             0 => __DIR__ . '/..' . '/twig/twig/src',
@@ -203,10 +174,6 @@ class ComposerStaticInitcbdbb7d9257796858d7729144a02f634
         array (
             0 => __DIR__ . '/..' . '/symfony/validator',
         ),
-        'Symfony\\Component\\Translation\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/translation',
-        ),
         'Symfony\\Component\\String\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/string',
@@ -235,10 +202,6 @@ class ComposerStaticInitcbdbb7d9257796858d7729144a02f634
         array (
             0 => __DIR__ . '/..' . '/symfony/http-foundation',
         ),
-        'Symfony\\Component\\Filesystem\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/filesystem',
-        ),
         'Symfony\\Component\\EventDispatcher\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/event-dispatcher',
@@ -251,17 +214,9 @@ class ComposerStaticInitcbdbb7d9257796858d7729144a02f634
         array (
             0 => __DIR__ . '/..' . '/symfony/dependency-injection',
         ),
-        'Symfony\\Component\\CssSelector\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/css-selector',
-        ),
         'Symfony\\Component\\Console\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
-        ),
-        'Symfony\\Component\\Config\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/config',
         ),
         'Symfony\\Bridge\\PsrHttpMessage\\' => 
         array (
@@ -316,10 +271,6 @@ class ComposerStaticInitcbdbb7d9257796858d7729144a02f634
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
-        'FailAid\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/genesis/behat-fail-aid/src',
-        ),
         'Egulias\\EmailValidator\\' => 
         array (
             0 => __DIR__ . '/..' . '/egulias/email-validator/src',
@@ -353,45 +304,9 @@ class ComposerStaticInitcbdbb7d9257796858d7729144a02f634
             0 => __DIR__ . '/..' . '/doctrine/common/src',
             1 => __DIR__ . '/..' . '/doctrine/event-manager/src',
         ),
-        'DMore\\ChromeExtension\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/dmore/behat-chrome-extension/src',
-        ),
-        'DMore\\ChromeDriver\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/dmore/chrome-mink-driver/src',
-        ),
         'Composer\\Semver\\' => 
         array (
             0 => __DIR__ . '/..' . '/composer/semver/src',
-        ),
-        'Behat\\Transliterator\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/behat/transliterator/src/Behat/Transliterator',
-        ),
-        'Behat\\Testwork\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/behat/behat/src/Behat/Testwork',
-        ),
-        'Behat\\Step\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/behat/behat/src/Behat/Step',
-        ),
-        'Behat\\Mink\\Driver\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/behat/mink-selenium2-driver/src',
-        ),
-        'Behat\\Mink\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/behat/mink/src',
-        ),
-        'Behat\\Hook\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/behat/behat/src/Behat/Hook',
-        ),
-        'Behat\\Behat\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/behat/behat/src/Behat/Behat',
         ),
         'Asm89\\Stack\\' => 
         array (
@@ -400,40 +315,11 @@ class ComposerStaticInitcbdbb7d9257796858d7729144a02f634
     );
 
     public static $prefixesPsr0 = array (
-        'W' => 
-        array (
-            'WebDriver' => 
-            array (
-                0 => __DIR__ . '/..' . '/instaclick/php-webdriver/lib',
-            ),
-        ),
-        'D' => 
-        array (
-            'Drupal\\Tests\\Driver' => 
-            array (
-                0 => __DIR__ . '/..' . '/drupal/drupal-driver/tests',
-            ),
-            'Drupal\\Driver' => 
-            array (
-                0 => __DIR__ . '/..' . '/drupal/drupal-driver/src',
-            ),
-        ),
         'C' => 
         array (
             'Console' => 
             array (
                 0 => __DIR__ . '/..' . '/pear/console_getopt',
-            ),
-        ),
-        'B' => 
-        array (
-            'Behat\\MinkExtension' => 
-            array (
-                0 => __DIR__ . '/..' . '/friends-of-behat/mink-extension/src',
-            ),
-            'Behat\\Gherkin' => 
-            array (
-                0 => __DIR__ . '/..' . '/behat/gherkin/src',
             ),
         ),
         'A' => 
